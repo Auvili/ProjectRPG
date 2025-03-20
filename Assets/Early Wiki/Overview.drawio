@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
   <diagram name="Page-1" id="VFXOi04C3vp5Mfpb2ym5">
-    <mxGraphModel dx="2066" dy="1141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1252" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,10 +31,10 @@
         <mxCell id="-CBSohvA36bJALY2MObc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-CBSohvA36bJALY2MObc-2" target="-CBSohvA36bJALY2MObc-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-CBSohvA36bJALY2MObc-2" value="A new day dawned over the city of (Name here). Through the window sounds of the city could be heard, The merchants harking there wares, The farmers driving the animals through the city, The guls in the harbour, all this and more added to the conofiphny of sound that was life in the big city. Arising and dressing you hastily grab a apple as you notice the time , your supervisor will not appreciate you being late for work on this day....&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-CBSohvA36bJALY2MObc-2" value="A new day dawned over the city of (Name here). Through the window sounds of the city could be heard, The merchants harking there wares, The farmers driving the animals through the city, The guls in the harbour, all this and more added to the conofiphny of sound that was life in the big city. Arising and dressing you hastily grab a apple as you notice the time , your supervisor will not appreciate you being late for work on this day.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="570" width="760" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="-CBSohvA36bJALY2MObc-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-CBSohvA36bJALY2MObc-4" value="Leaving your home in the artisans quarter you take a moment admire your surroundings high on the hill over looking the city the Palace of (name here) Duke of the Isle, who&#39;s family has ruled here for generations, The temple of (religion name here) who&#39;s followers will soon be flocking into it to celebrate the day of (name) and below the harbour busy with fishermen and traders. Whistling and nameless tune and smiling you head to the merchants quarter and to (name of company)." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="720" width="760" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-CBSohvA36bJALY2MObc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-CBSohvA36bJALY2MObc-5" target="-CBSohvA36bJALY2MObc-6">
@@ -45,6 +45,57 @@
         </mxCell>
         <mxCell id="-CBSohvA36bJALY2MObc-6" value="Time matters if you have a jobe to do at 9 be there at nine...." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-CBSohvA36bJALY2MObc-10" target="-CBSohvA36bJALY2MObc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-10" value="City&lt;div&gt;(name it)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-CBSohvA36bJALY2MObc-11" target="-CBSohvA36bJALY2MObc-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-CBSohvA36bJALY2MObc-11" target="-CBSohvA36bJALY2MObc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-CBSohvA36bJALY2MObc-11" target="-CBSohvA36bJALY2MObc-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-CBSohvA36bJALY2MObc-11" target="-CBSohvA36bJALY2MObc-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-CBSohvA36bJALY2MObc-11" target="-CBSohvA36bJALY2MObc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-CBSohvA36bJALY2MObc-11" target="-CBSohvA36bJALY2MObc-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-CBSohvA36bJALY2MObc-11" target="-CBSohvA36bJALY2MObc-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-11" value="Areas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-12" value="Palace&lt;br&gt;(Top the hill)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-13" value="Temple&lt;br&gt;(By city Square)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-14" value="Harbour&lt;div&gt;(on the coast)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-15" value="Merchants Quarter&lt;br&gt;(Near the Harbour)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-16" value="Artisans Quarter&lt;div&gt;(Near the Merchants)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-17" value="Upper Quarter&lt;br&gt;(near the palace)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBSohvA36bJALY2MObc-18" value="Somthing else" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
