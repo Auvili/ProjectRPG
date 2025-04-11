@@ -1234,8 +1234,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1531020227}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -1498,7 +1497,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: SCN_Griffion
+    stringVal: SCN_Griffin
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1531020277
@@ -1537,7 +1536,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1531020279
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

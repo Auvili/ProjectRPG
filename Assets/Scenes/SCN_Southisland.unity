@@ -682,7 +682,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Griffions Rock
+  m_text: Griffin's Rock
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b6cffcbfc67776741982f65717017cfd, type: 2}
   m_sharedMaterial: {fileID: 6946858885479789849, guid: b6cffcbfc67776741982f65717017cfd, type: 2}
@@ -709,7 +709,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.75
+  m_fontSize: 21.65
   m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3484,7 +3484,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1531020247}
   selectedCommands: []
   variables: []
   description: 
@@ -3647,7 +3648,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: SCN_Griffion
+    stringVal: SCN_Griffin
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1531020254
@@ -4318,7 +4319,7 @@ GameObject:
   - component: {fileID: 1860936668}
   - component: {fileID: 1860936667}
   m_Layer: 0
-  m_Name: BTN_Griffionsrock
+  m_Name: BTN_Griffinsrock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

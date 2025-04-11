@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SCN_Start.unity
     guid: 8a833abf2b865374ca0415d2ae667d45
   - enabled: 1
-    path: Assets/Scenes/SCN_Griffion.unity
+    path: Assets/Scenes/SCN_Griffin.unity
     guid: d437791d9f5272249a159dfa24dc75f1
   - enabled: 1
     path: Assets/Scenes/SCN_Southisland.unity
