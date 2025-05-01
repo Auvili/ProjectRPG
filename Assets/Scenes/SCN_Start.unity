@@ -532,6 +532,7 @@ GameObject:
   - component: {fileID: 601566243}
   - component: {fileID: 601566242}
   - component: {fileID: 601566241}
+  - component: {fileID: 601566244}
   m_Layer: 5
   m_Name: StoryText
   m_TagString: Untagged
@@ -546,18 +547,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601566239}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.73249996, y: 0.73249996, z: 0.73249996}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1470705865}
+  m_Father: {fileID: 1153752596}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: 0.000061035156, y: 106.5}
-  m_SizeDelta: {x: 0.00012207, y: 212.9999}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -299.99933, y: -559}
+  m_SizeDelta: {x: 819.11, y: 750.85}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &601566241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -574,7 +575,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: 1150
-  m_PreferredHeight: 200
+  m_PreferredHeight: -1
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -600,18 +601,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 79197ecfbc3a4294a89ce589dac02cf2, type: 3}
-    m_FontSize: 45
+    m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 0
     m_MaxSize: 50
-    m_Alignment: 4
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Story text
+  m_Text: 
 --- !u!222 &601566243
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -620,6 +621,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601566239}
   m_CullTransparentMesh: 1
+--- !u!114 &601566244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601566239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 0
 --- !u!1 &616940789
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,7 +846,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1110449979
 Transform:
   m_ObjectHideFlags: 0
@@ -848,6 +863,73 @@ Transform:
   - {fileID: 1827872419}
   m_Father: {fileID: 96956359}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1153752595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1153752596}
+  - component: {fileID: 1153752599}
+  - component: {fileID: 1153752600}
+  m_Layer: 0
+  m_Name: MSK_Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1153752596
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153752595}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.3651878, y: 1.3651878, z: 1.3651878}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 601566240}
+  m_Father: {fileID: 1470705865}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 600, y: 550}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1153752599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153752595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d2488dd8f8cf14a86d8abb7d2693ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentTransform: {fileID: 601566240}
+  maskTransform: {fileID: 0}
+  scrollSpeed: 30
+--- !u!114 &1153752600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153752595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
 --- !u!1 &1470705864
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,13 +962,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 601566240}
+  - {fileID: 1153752596}
   m_Father: {fileID: 1980409965}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 94.08545, y: -1.7183228}
-  m_SizeDelta: {x: 1132.6475, y: -179.3806}
+  m_AnchoredPosition: {x: 100, y: 0}
+  m_SizeDelta: {x: 1130, y: -200.00003}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1470705866
 MonoBehaviour:
@@ -1236,7 +1318,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1531020227}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1531020265}
   variables: []
   description: 
   stepPause: 0
@@ -1262,9 +1345,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -454.12195
-    y: 39.560974
-    width: 105.5
+    x: -460
+    y: 40
+    width: 100
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1349,7 +1432,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -600
     y: 40
-    width: 78.03
+    width: 80
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1417,10 +1500,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: "A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
+  storyText: "A new day dawned over the city of Griffin's Rock . Through the window
+    sounds of the city could be heard, the merchants harking there wares, The farmers
+    driving the animals through the city, The guls in the harbour, all this and more
+    added to the conofiphny of sound that was life in the big city. Arising and dressing
     you hastily grab a apple as you notice the time , your supervisor will not appreciate
     you being late for work on this day. \n\nLeaving your home in the artisans quarter
     you take a moment admire your surroundings high on the hill over looking the
@@ -1771,8 +1854,9 @@ GameObject:
   - component: {fileID: 1980409968}
   - component: {fileID: 1980409966}
   - component: {fileID: 1980409967}
+  - component: {fileID: 1980409975}
   m_Layer: 5
-  m_Name: SayDOG_Paperstory
+  m_Name: TXT_Control
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2049,6 +2133,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
+--- !u!114 &1980409975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980409964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd2c21fa9a6a3b34e99bdfe87691b9b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollingManager: {fileID: 1153752599}
 --- !u!1 &2083812821
 GameObject:
   m_ObjectHideFlags: 0
