@@ -3665,9 +3665,6 @@ GameObject:
   - component: {fileID: 1531020248}
   - component: {fileID: 1531020247}
   - component: {fileID: 1531020252}
-  - component: {fileID: 1531020254}
-  - component: {fileID: 1531020255}
-  - component: {fileID: 1531020253}
   - component: {fileID: 1531020293}
   - component: {fileID: 1531020292}
   - component: {fileID: 1531020290}
@@ -3695,6 +3692,19 @@ GameObject:
   - component: {fileID: 1531020260}
   - component: {fileID: 1531020259}
   - component: {fileID: 1531020294}
+  - component: {fileID: 1531020307}
+  - component: {fileID: 1531020306}
+  - component: {fileID: 1531020305}
+  - component: {fileID: 1531020304}
+  - component: {fileID: 1531020303}
+  - component: {fileID: 1531020302}
+  - component: {fileID: 1531020301}
+  - component: {fileID: 1531020300}
+  - component: {fileID: 1531020299}
+  - component: {fileID: 1531020298}
+  - component: {fileID: 1531020297}
+  - component: {fileID: 1531020296}
+  - component: {fileID: 1531020295}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3727,9 +3737,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1531020245}
-  selectedCommands:
-  - {fileID: 1531020294}
+  - {fileID: 1531020256}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3790,8 +3799,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -840
-    y: 80
+    x: -960
+    y: -160
     width: 80
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3930,80 +3939,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
---- !u!114 &1531020253
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531020211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 8
-  indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1531020254
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531020211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -720
-    y: -160
-    width: 100
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 7
-  blockName: Test Block
-  description: 
-  eventHandler: {fileID: 1531020255}
-  commandList:
-  - {fileID: 1531020253}
-  suppressAllAutoSelections: 0
---- !u!114 &1531020255
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531020211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1531020254}
-  suppressBlockAutoSelect: 0
-  targetButton: {fileID: 1639517623}
 --- !u!114 &1531020256
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4019,7 +3954,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -480
-    y: -420
+    y: -480
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4027,7 +3962,7 @@ MonoBehaviour:
   itemId: 52
   blockName: Griffin's Rock
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1531020307}
   commandList:
   - {fileID: 1531020257}
   suppressAllAutoSelections: 0
@@ -4045,12 +3980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
+  storyText: Test Griffion Rock
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4077,12 +4007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
+  storyText: Test Griffions Gtae
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4110,7 +4035,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -480
-    y: -480
+    y: -420
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4118,7 +4043,7 @@ MonoBehaviour:
   itemId: 59
   blockName: Griffins Gate
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1531020306}
   commandList:
   - {fileID: 1531020259}
   suppressAllAutoSelections: 0
@@ -4136,12 +4061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
+  storyText: Test Temple Gate
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4177,7 +4097,7 @@ MonoBehaviour:
   itemId: 58
   blockName: Temple Gate
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1531020295}
   commandList:
   - {fileID: 1531020262}
   suppressAllAutoSelections: 0
@@ -4195,12 +4115,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
+  storyText: 'Test Poor Quarter
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4236,7 +4153,7 @@ MonoBehaviour:
   itemId: 57
   blockName: Poor Quarter
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1531020299}
   commandList:
   - {fileID: 1531020265}
   suppressAllAutoSelections: 0
@@ -4254,12 +4171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
+  storyText: Test Home sweet Home
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4295,7 +4207,7 @@ MonoBehaviour:
   itemId: 56
   blockName: Player Home
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1531020302}
   commandList:
   - {fileID: 1531020268}
   suppressAllAutoSelections: 0
@@ -4313,12 +4225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
+  storyText: Test Temple Square
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4354,7 +4261,7 @@ MonoBehaviour:
   itemId: 55
   blockName: Temple squ
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1531020297}
   commandList:
   - {fileID: 1531020271}
   suppressAllAutoSelections: 0
@@ -4372,12 +4279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
+  storyText: Test Market Square
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4413,7 +4315,7 @@ MonoBehaviour:
   itemId: 54
   blockName: Test Market Squ
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1531020301}
   commandList:
   - {fileID: 1531020274}
   suppressAllAutoSelections: 0
@@ -4431,12 +4333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
+  storyText: Test Barracks
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4472,7 +4369,7 @@ MonoBehaviour:
   itemId: 53
   blockName: Barracks
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1531020296}
   commandList:
   - {fileID: 1531020277}
   suppressAllAutoSelections: 0
@@ -4490,12 +4387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
+  storyText: Test Short street
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4531,7 +4423,7 @@ MonoBehaviour:
   itemId: 51
   blockName: Short Street
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1531020303}
   commandList:
   - {fileID: 1531020280}
   suppressAllAutoSelections: 0
@@ -4549,12 +4441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
+  storyText: Test Bishops Palace
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4590,7 +4477,7 @@ MonoBehaviour:
   itemId: 50
   blockName: Bishops Palace
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1531020304}
   commandList:
   - {fileID: 1531020283}
   suppressAllAutoSelections: 0
@@ -4608,12 +4495,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
+  storyText: Test Upper Quater
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4649,7 +4531,7 @@ MonoBehaviour:
   itemId: 49
   blockName: Upper Quarter
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1531020298}
   commandList:
   - {fileID: 1531020286}
   suppressAllAutoSelections: 0
@@ -4667,12 +4549,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
+  storyText: 'test Silbrook Estate
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4708,7 +4587,7 @@ MonoBehaviour:
   itemId: 48
   blockName: The Silbrook Estate
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1531020305}
   commandList:
   - {fileID: 1531020289}
   suppressAllAutoSelections: 0
@@ -4726,12 +4605,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: 'A new day dawned over the city of (Name here). Through the window sounds
-    of the city could be heard, The merchants harking there wares, The farmers driving
-    the animals through the city, The guls in the harbour, all this and more added
-    to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. '
+  storyText: 'Test harbor
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4767,13 +4643,13 @@ MonoBehaviour:
   itemId: 47
   blockName: Harbor
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1531020300}
   commandList:
   - {fileID: 1531020292}
   suppressAllAutoSelections: 0
 --- !u!114 &1531020294
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4792,6 +4668,201 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1531020295
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1531020263}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 69014316}
+--- !u!114 &1531020296
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1531020278}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 744504760}
+--- !u!114 &1531020297
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1531020272}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 1397891097}
+--- !u!114 &1531020298
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1531020287}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 1779347959}
+--- !u!114 &1531020299
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1531020266}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 1225975052}
+--- !u!114 &1531020300
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1531020293}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 2121488108}
+--- !u!114 &1531020301
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1531020275}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 1722320653}
+--- !u!114 &1531020302
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1531020269}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 1276361096}
+--- !u!114 &1531020303
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1531020281}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 1222931}
+--- !u!114 &1531020304
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1531020284}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 784860190}
+--- !u!114 &1531020305
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1531020290}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 96508285}
+--- !u!114 &1531020306
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1531020260}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 231305379}
+--- !u!114 &1531020307
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1531020256}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 1639517623}
 --- !u!1 &1548172582
 GameObject:
   m_ObjectHideFlags: 0

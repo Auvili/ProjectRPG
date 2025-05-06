@@ -3485,8 +3485,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1531020247}
-  selectedCommands: []
+  - {fileID: 1531020252}
+  selectedCommands:
+  - {fileID: 1531020253}
   variables: []
   description: 
   stepPause: 0
@@ -3529,7 +3530,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -593.9026
     y: -40.487747
-    width: 78.03
+    width: 80
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3617,9 +3618,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -190.59268
-    y: 49.78955
-    width: 129.55
+    x: -200
+    y: 40
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3648,7 +3649,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: SCN_Griffin
+    stringVal: SCN_CityGriffin
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1531020254

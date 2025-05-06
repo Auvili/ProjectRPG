@@ -1448,7 +1448,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1531020227}
   selectedCommands:
-  - {fileID: 1531020265}
+  - {fileID: 1531020276}
   variables: []
   description: 
   stepPause: 0
@@ -1629,18 +1629,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: "A new day dawned over the city of Griffin's Rock . Through the window
-    sounds of the city could be heard, the merchants harking there wares, The farmers
-    driving the animals through the city, The guls in the harbour, all this and more
-    added to the conofiphny of sound that was life in the big city. Arising and dressing
-    you hastily grab a apple as you notice the time , your supervisor will not appreciate
-    you being late for work on this day. \n\nLeaving your home in the artisans quarter
-    you take a moment admire your surroundings high on the hill over looking the
-    city the Palace of (name here) Duke of the Isle, who's family has ruled here
-    for generations, The temple of (religion name here) who's followers will soon
-    be flocking into it to celebrate the day of (name) and below the harbour busy
-    with fishermen and traders. Whistling and nameless tune and smiling you head
-    to the merchants quarter and to (name of company)."
+  storyText: "A new day dawned over the city of Griffin's Rock. Through the window,
+    the sounds of the city could be heard\u2014the merchants hawking their wares,
+    the farmers driving their animals through the streets, the gulls calling from
+    the harbor. All this and more added to the cacophony of sound that was life in
+    the big city.\r\nArising and dressing, you hastily grab an apple as you notice
+    the time\u2014your supervisor will not appreciate you being late for work today.\r\nLeaving
+    your home in the Artisans' Quarter, you take a moment to admire your surroundings.
+    High on the hill overlooking the city stands the palace of (name here), Duke
+    of the Isle, whose family has ruled here for generations. Nearby, the temple
+    of (religion name here), whose followers will soon be flocking in to celebrate
+    the Day of (name). Below, the harbor bustles with fishermen and traders.\r\nWhistling
+    a nameless tune and smiling, you head toward the Merchants' Quarter and to (name
+    of company).\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1709,7 +1710,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: SCN_Griffin
+    stringVal: SCN_CityGriffin
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1531020277
