@@ -3486,8 +3486,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1531020252}
-  selectedCommands:
-  - {fileID: 1531020253}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3528,8 +3527,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -593.9026
-    y: -40.487747
+    x: -600
+    y: -40
     width: 80
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3618,8 +3617,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -200
-    y: 40
+    x: -480
+    y: -40
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4568,7 +4567,7 @@ GameObject:
   - component: {fileID: 1980409966}
   - component: {fileID: 1980409967}
   m_Layer: 5
-  m_Name: SayDOG_Paperstory
+  m_Name: TXT_Control
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
