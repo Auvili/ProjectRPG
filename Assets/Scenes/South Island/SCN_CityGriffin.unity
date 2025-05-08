@@ -3668,7 +3668,6 @@ GameObject:
   - component: {fileID: 1531020293}
   - component: {fileID: 1531020292}
   - component: {fileID: 1531020290}
-  - component: {fileID: 1531020289}
   - component: {fileID: 1531020287}
   - component: {fileID: 1531020286}
   - component: {fileID: 1531020284}
@@ -3705,6 +3704,9 @@ GameObject:
   - component: {fileID: 1531020297}
   - component: {fileID: 1531020296}
   - component: {fileID: 1531020295}
+  - component: {fileID: 1531020308}
+  - component: {fileID: 1531020310}
+  - component: {fileID: 1531020309}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3737,9 +3739,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1531020290}
+  - {fileID: 1531020245}
   selectedCommands:
-  - {fileID: 1531020289}
+  - {fileID: 1531020294}
   variables: []
   description: 
   stepPause: 0
@@ -4536,35 +4538,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1531020286}
   suppressAllAutoSelections: 0
---- !u!114 &1531020289
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531020211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 24
-  indentLevel: 0
-  storyText: 'test Silbrook Estate
-
-'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1531020290
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4590,7 +4563,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1531020305}
   commandList:
-  - {fileID: 1531020289}
+  - {fileID: 1531020310}
+  - {fileID: 1531020308}
+  - {fileID: 1531020309}
   suppressAllAutoSelections: 0
 --- !u!114 &1531020292
 MonoBehaviour:
@@ -4864,6 +4839,59 @@ MonoBehaviour:
   parentBlock: {fileID: 1531020256}
   suppressBlockAutoSelect: 0
   targetButton: {fileID: 1639517623}
+--- !u!114 &1531020308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 61
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: SCN_Silbrook
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1531020309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1ca510a57aa47568a5e4ee558ff41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 63
+  indentLevel: 0
+--- !u!114 &1531020310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531020211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 62
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!1 &1548172582
 GameObject:
   m_ObjectHideFlags: 0
